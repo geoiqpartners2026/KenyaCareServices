@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+#header {
+    height: 90px;
+    background: white;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+#logo {
+    height: 60px;
+    margin-right: 20px;
+}
+
+#title h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #222;
+}
+
+#title h2 {
+    margin: 4px 0 0 0;
+    font-size: 14px;
+    font-weight: normal;
+    color: #666;
+}
+
+#map {
+    width: 100%;
+    height: calc(100vh - 160px);
+}
+
+#info {
+    height: 70px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border-top: 1px solid #ccc;
+    background: #f8f8f8;
+    font-size: 14px;
+    overflow-y: auto;
+}
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.info-table th,
+.info-table td {
+    border: 1px solid #ccc;
+    padding: 6px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.info-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
